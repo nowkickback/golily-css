@@ -20,14 +20,14 @@ body.t1p #hl_smartlists-main div.card-like {
 }
 
 
-body.t1p #globalSearchOpener {
+.t1p #globalSearchOpener {
   border-radius: 4px;
   height: 36px;
   display: flex;
   padding-left: 4px;
 }
 
-body.t1p #quickActions {
+.t1p #quickActions {
   border-radius: 4px;
   background-color: rgba(0,0,0,0.4);
   border-color: rgba(0,0,0,0.4);
