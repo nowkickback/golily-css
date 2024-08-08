@@ -19,6 +19,47 @@ body.t1p #hl_smartlists-main div.card-like {
   padding: 0.5rem 0 0.5rem 0
 }
 
+
+body.t1p #globalSearchOpener {
+  border-radius: 4px;
+  height: 36px;
+  display: flex;
+  padding-left: 4px;
+}
+
+body.t1p #quickActions {
+  border-radius: 4px;
+  background-color: rgba(0,0,0,0.4);
+  border-color: rgba(0,0,0,0.4);
+  height: 36px;
+  width: 36px;
+}
+
+body.t1p #location-switcher-sidbar-v2 {
+  margin-bottom: 8px;
+}
+
+body.t1p .sidebar-v2-location #sidebar-v2 #globalSearchOpener span.search-placeholder {
+  line-height: 12px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+body.t1p #globalSearchOpener > div {
+  align-items: center;
+}
+
+body.t1p .search-icon {
+  margin-right: 8px;
+}
+
+body.t1p .search-shortcut {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
 .hl_wrapper.hl_contact--details > section {
   overflow-y: hidden;
 }
