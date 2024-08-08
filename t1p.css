@@ -1,4 +1,4 @@
-body.t1p:has(.jsPanel):before {
+.t1p:has(.jsPanel)::before {
   content: "";
   position: fixed;
   top: 0;
