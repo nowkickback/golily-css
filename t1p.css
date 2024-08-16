@@ -1,3 +1,4 @@
+/* Darken Background when iframe is open */
 body.t1p:has(.jsPanel)::before {
   content: "";
   position: fixed;
@@ -10,23 +11,24 @@ body.t1p:has(.jsPanel)::before {
   pointer-events: none;
 }
 
+
+/* Contacts List button fixes */
 body.t1p #hl_smartlists-main div.flex-page-bar,
 body.t1p #hl_smartlists-main div.card-like {
   background-color: transparent !important;
 }
-
 body.t1p #hl_smartlists-main div.card-like {
   padding: 0.5rem 0 0.5rem 0
 }
 
 
+/* Sidebar Search and Quick Actions button */
 body.t1p #globalSearchOpener {
   border-radius: 4px;
   height: 36px;
   display: flex;
   padding-left: 4px;
 }
-
 body.t1p #quickActions {
   border-radius: 4px;
   background-color: rgba(0,0,0,0.4);
@@ -34,11 +36,9 @@ body.t1p #quickActions {
   height: 36px;
   width: 36px;
 }
-
 body.t1p #location-switcher-sidbar-v2 {
   margin-bottom: 8px;
 }
-
 body.t1p .sidebar-v2-location #sidebar-v2 #globalSearchOpener span.search-placeholder {
   line-height: 12px;
   font-size: 12px;
@@ -46,24 +46,25 @@ body.t1p .sidebar-v2-location #sidebar-v2 #globalSearchOpener span.search-placeh
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.6) !important;
 }
-
 body.t1p #globalSearchOpener > div {
   align-items: center;
 }
-
 body.t1p .search-icon {
   margin-right: 8px;
 }
-
 body.t1p .search-shortcut {
   text-transform: uppercase;
   font-size: 10px;
 }
 
+
+
 body.t1p .hl_wrapper.hl_contact--details > section {
   overflow-y: hidden;
 }
 
+
+/* GHL Customizer Contact Buttons */
 body.t1p #toolbar-contact-buttons {
   padding: 14px 10px 10px 10px !important;
   text-align: center;
@@ -76,6 +77,7 @@ body.t1p #contact-buttons {
   background-color: rgba(0,0,0,0.01);
   border-bottom: 1px solid rgba(0,0,0,0.1);
 }
+
 
 body.t1p #contacts-right-tabs-bar-wrapper a.nav-link.contact-tab-item {
   margin-top: 0 !important;
@@ -178,7 +180,6 @@ body.t1p span.text-gray-500.pl-1.truncate {
 body.t1p div a div {
   display: flex;
   align-items: center;
-  
 }
 
 body.t1p.opportunitiesCard .hl-card-content {
