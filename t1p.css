@@ -1,4 +1,4 @@
-.t1p:has(.jsPanel)::before {
+body.t1p:has(.jsPanel)::before {
   content: "";
   position: fixed;
   top: 0;
@@ -20,14 +20,14 @@ body.t1p #hl_smartlists-main div.card-like {
 }
 
 
-.t1p #globalSearchOpener {
+body.t1p #globalSearchOpener {
   border-radius: 4px;
   height: 36px;
   display: flex;
   padding-left: 4px;
 }
 
-.t1p #quickActions {
+body.t1p #quickActions {
   border-radius: 4px;
   background-color: rgba(0,0,0,0.4);
   border-color: rgba(0,0,0,0.4);
@@ -60,78 +60,78 @@ body.t1p .search-shortcut {
   font-size: 10px;
 }
 
-.hl_wrapper.hl_contact--details > section {
+body.t1p .hl_wrapper.hl_contact--details > section {
   overflow-y: hidden;
 }
 
-#toolbar-contact-buttons {
-  padding: 14px 10px 10px 10px;
+body.t1p #toolbar-contact-buttons {
+  padding: 14px 10px 10px 10px !important;
   text-align: center;
-  background-color: rgba(0,0,0,0.01);
+  background-color: rgba(0,0,0,0.01) !important;
   border-bottom: 1px solid rgba(0,0,0,0.1);
 }
-#contact-buttons {
+body.t1p #contact-buttons {
   padding: 12px 10px 10px 10px;
   text-align: center;
   background-color: rgba(0,0,0,0.01);
   border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
-#contacts-right-tabs-bar-wrapper a.nav-link.contact-tab-item {
+body.t1p #contacts-right-tabs-bar-wrapper a.nav-link.contact-tab-item {
   margin-top: 0 !important;
 }
 
-.activity-tab-details {
+body.t1p .activity-tab-details {
   padding: 0;
 }
 
-.activity-tab-details .card {
+body.t1p .activity-tab-details .card {
   box-shadow: none;
 }
 
-#OwnersComponent .mb-1:not(.w-max) {
+body.t1p #OwnersComponent .mb-1:not(.w-max) {
   display: none;
 }
 
-#OwnersComponent .mb-1.w-max {
+body.t1p #OwnersComponent .mb-1.w-max {
   font-size: 0;
   margin: 0;
 }
 
-#OwnersComponent .mb-1.w-max:before {
+body.t1p #OwnersComponent .mb-1.w-max:before {
   content: "Owner";
   text-transform: uppercase;
   font-size: 12px;
   margin-right: 8px;
 }
 
-#OwnersComponent .flex {
+body.t1p #OwnersComponent .flex {
   align-items: center;
 }
 
-#OwnersComponent .flex .border-r {
+body.t1p #OwnersComponent .flex .border-r {
   border: none;
   display: flex;
   align-items: center;
 }
 
-.hl_conversations--message-header-new .flex {
+body.t1p .hl_conversations--message-header-new .flex {
   align-items: center;
 }
 
-button[data-color="#ffffff"] {
+body.t1p button[data-color="#ffffff"] {
   visibility: hidden;
 }
 
-.sidebar-v2-location .hl_wrapper.hl_topbar-tabs #conversations.hl_wrapper--inner {
+body.t1p .sidebar-v2-location .hl_wrapper.hl_topbar-tabs #conversations.hl_wrapper--inner {
   padding-top: 5px;
 }
 
-.sidebar-v2-location #sidebar-v2 .hl_nav-header nav>a:before {
+body.t1p .sidebar-v2-location #sidebar-v2 .hl_nav-header nav>a:before {
   background: transparent;
 }
 
-.task-counter {
+body.t1p .task-counter {
   display: flex;
   width: 2em;
   height: 2em;
@@ -139,64 +139,64 @@ button[data-color="#ffffff"] {
   justify-content: center;
 }
 
-div.hl_conversations--message-header-new {
+body.t1p div.hl_conversations--message-header-new {
   padding-left: 16px;
   padding-right: 16px;
 }
 
-div.w-full.contact-detail-nav {
+body.t1p div.w-full.contact-detail-nav {
   height: 55px;
 }
 
-ul.nav.nav-tabs.--dont-stack.nav-tabs-pd.tabs-container {
+body.t1p ul.nav.nav-tabs.--dont-stack.nav-tabs-pd.tabs-container {
   border-bottom: none;
   height: 55px;
   display: flex;
 }
 
-a.nav-link.contact-tab-item {
+body.t1p a.nav-link.contact-tab-item {
   width: 100%;
   margin-bottom: 0;
   
 }
 
-.customerPageClass .card.task-list-card {
+body.t1p .customerPageClass .card.task-list-card {
   margin: 0;
   box-shadow: none;
 }
 
-.text-curious-blue-500.truncate + .text-gray-500.pt-2.truncate.d-block {
+body.t1p .text-curious-blue-500.truncate + .text-gray-500.pt-2.truncate.d-block {
   white-space: pre-line;
   font-weight: 400;
 }
 
-span.text-gray-500.pl-1.truncate {
+body.t1p span.text-gray-500.pl-1.truncate {
   text-transform: capitalize;
   margin-left: 2px;
 }
 
-div a div {
+body.t1p div a div {
   display: flex;
   align-items: center;
   
 }
 
-.opportunitiesCard .hl-card-content {
+body.t1p.opportunitiesCard .hl-card-content {
   border: none;
 }
 
-.tag-🔁-follow-up-1-month {
+body.t1p .tag-🔁-follow-up-1-month {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-.tag-🔁-follow-up-1-month > .flex.justify-between {
+body.t1p .tag-🔁-follow-up-1-month > .flex.justify-between {
   margin-top: 26px;
 }
-.tag-🔁-follow-up-1-month .n-avatar {
+body.t1p .tag-🔁-follow-up-1-month .n-avatar {
   margin-top: 26px;
 }
 
-.tag-🔁-follow-up-1-month::before {
+body.t1p .tag-🔁-follow-up-1-month::before {
   content: 'In Rehash - Waiting...';
   text-transform: uppercase;
   font-size: smaller;
