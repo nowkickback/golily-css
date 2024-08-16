@@ -30,9 +30,9 @@ body.t1p #globalSearchOpener {
   padding-left: 4px;
 }
 body.t1p #quickActions {
-  border-radius: 4px;
-  background-color: rgba(0,0,0,0.4);
-  border-color: rgba(0,0,0,0.4);
+  border-radius: 4px !important;
+  background-color: rgba(0,0,0,0.4) !important;
+  border-color: rgba(0,0,0,0.4) !important;
   height: 36px;
   width: 36px;
 }
