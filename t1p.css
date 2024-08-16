@@ -213,3 +213,29 @@ body.t1p .tag-🔁-follow-up-1-month::before {
   color: white;
   font-weight: 500;
 }
+
+body.t1p #filters + div span.text-gray-500.pt-2.truncate.d-block {
+  white-space: pre-line;
+}
+
+body.t1p .hl_tasks .hl_products--item-text p {
+  display: block;
+  white-space: pre-line;
+  padding-bottom: 6px;
+}
+
+body.t1p .contact-detail-nav > div > span {
+  flex: 1 auto;
+  max-width: inherit;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+body.t1p .contact-detail-nav > div {
+  width: 100%;
+  justify-content: start;
+}
+
+body.t1p .card:not(.cardWrapper .card) {
+  border-radius: 15px;
+}
