@@ -177,7 +177,7 @@ body.t1p span.text-gray-500.pl-1.truncate {
   margin-left: 2px;
 }
 
-body.t1p div a div {
+body.t1p div a:not(.topmenu-navitem) div {
   display: flex;
   align-items: center;
 }
