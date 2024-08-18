@@ -240,3 +240,24 @@ body.t1p .contact-detail-nav > div {
 body.t1p .card:not(.cardWrapper .card) {
   border-radius: 15px;
 }
+
+
+/* Dashboard Title Heading Edits */
+body.t1p #location-dashboard .location-dashboard-title-chart-container {
+  background: transparent;
+}
+
+body.t1p #location-dashboard .location-dashboard-title-chart-container .hl-card-content {
+  background-color: #2DB3C7;
+  padding: 15px 20px;
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+}
+
+body.t1p .location-dashboard-title-chart-container .hl-card-content .title-text {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 2rem;
+}
