@@ -228,8 +228,8 @@ body.t1p .hl_tasks .hl_products--item-text p {
 body.t1p .contact-detail-nav > div > span {
   flex: 1 auto;
   max-width: inherit;
-  font-weight: 500;
-  font-size: 1rem;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
 }
 
 body.t1p .contact-detail-nav > div {
@@ -249,7 +249,7 @@ body.t1p #location-dashboard .location-dashboard-title-chart-container {
 
 body.t1p #location-dashboard .location-dashboard-title-chart-container .hl-card-content {
   background-color: #2DB3C7;
-  padding: 15px 20px;
+  padding: 15px 20px !important;
   border-top-left-radius: 15px !important;
   border-top-right-radius: 15px !important;
 }
