@@ -287,7 +287,7 @@ body.t1p .sidebar-v2-location #sidebar-v2 .flex-col a i.h-5.w-5:not(.caret) {
 body.t1p .sidebar-v2-location:not(.v2-collapse) #sidebar-v2 .hl_nav-header nav a.mkt-menu-list,
 body.t1p .sidebar-v2-location:not(.v2-collapse) #sidebar-v2 .hl_nav-header nav a.mkt-folder {
   margin: 12px 12px;
-  padding: 0 !important;
+  padding: 4px 0 !important;
   font-size: 1.05rem
 }
 
