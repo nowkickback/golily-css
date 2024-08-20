@@ -278,6 +278,7 @@ body.t1p .sidebar-v2-agency #sidebar-v2 .flex-col a img,
 body.t1p .sidebar-v2-location #sidebar-v2 .flex-col a i.h-5.w-5:not(.caret) {
   height: 40px !important;
   width: 40px;
+  background-color: rgba(255, 255, 255, 0.2) !important;
   background-size: 36px !important;
   background-position: center !important;
   left: 0 !important;
@@ -310,7 +311,7 @@ body.t1p #sidebar-v2 .lead-connector {
 body.t1p .sidebar-v2-location #sidebar-v2 .hl_nav-header,
 body.t1p .sidebar-v2-location #sidebar-v2 .hl_nav-settings {
   background-color: rgba(0,0,0,0.3);
-  max-height: unset;
+  max-height: unset !important;
   flex-grow: 1;
 }
 body.t1p .hl_nav-header > nav {
