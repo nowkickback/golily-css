@@ -404,3 +404,7 @@ body.t1p .hl_conversations--messages-list-v2 > div > div:nth-child(2) > div:firs
 body.t1p #location-dashboard_date-picker {
   display: none;
 }
+
+body.t1p .custom-link > iframe {
+  height: calc(100vh - 48px) !important;
+}
