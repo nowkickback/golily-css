@@ -475,4 +475,5 @@ body.t1p._3qNkFdUYSSgxs5F2ShD7::before {
   left: 0;
   right: 0;
   bottom: 0;
+  pointer-events: none;
 }
