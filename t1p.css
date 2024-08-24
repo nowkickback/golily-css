@@ -408,3 +408,59 @@ body.t1p #location-dashboard_date-picker {
 body.t1p .custom-link > iframe {
   height: calc(100vh - 48px) !important;
 }
+
+/* Pipeline Cards Tag Banner */
+body.t1p .n-config-provider .target .card[class*=w-] .cardWrapper .hl-card-content {
+  border: 0 !important;
+}
+body.t1p div[class*='tag-rehash'] > .flex.justify-between,
+body.t1p div[class*='tag-🔁-'] > .flex.justify-between {
+  margin-top: 28px;
+}
+body.t1p div[class*='tag-rehash'] .n-avatar,
+body.t1p div[class*='tag-🔁-'] .n-avatar {
+  margin-top: 28px;
+}
+body.t1p div[class*='tag-rehash']::before,
+body.t1p div[class*='tag-🔁-']::before {
+  text-transform: uppercase;
+  font-size: smaller;
+  position: absolute;
+  letter-spacing: 0.3px;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding: 6px 8px 4px;
+  color: white;
+  font-weight: 500;
+  border-color:rgb(180, 180, 180);
+}
+
+/* Pipeline Cards Tag Banner Content */
+/* In Order of Priority (bottom-most is shown) */
+body.t1p .tag-rehash-waiting::before {
+  content: '🔁 Rehash - Waiting...';
+  background-color: rgb(180, 180, 180);
+}
+body.t1p .tag-rehash-no-reply::before {
+  content: '🔁 No Reply to Rehash Campaign';
+  background-color: #E63946;
+}
+body.t1p div[class*='tag-🔁-']::before {
+  background-color: rgb(45, 179, 199);
+}
+body.t1p .tag-🔁-in-rehash---cancelled::before {
+  content: '🔁 Rehash: Cancelled';
+}
+body.t1p .tag-🔁-in-rehash---no-sale::before {
+  content: '🔁 Rehash: No Sale';
+}
+body.t1p .tag-🔁-in-rehash---general-follow-up::before {
+  content: '🔁 Rehash: General Follow-Up';
+}
+body.t1p .tag-🔁-in-rehash---no-show::before {
+  content: '🔁 Rehash: No Show';
+}
