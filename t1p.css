@@ -306,7 +306,7 @@ body.t1p .sidebar-v2-location.v2-collapse #taskCount {
 }
 
 body.t1p #sidebar-v2 .lead-connector {
-  padding-bottom: 0;
+  padding-bottom: 0 !important;
 }
 
 body.t1p .sidebar-v2-location #sidebar-v2 .hl_nav-header,
@@ -316,7 +316,7 @@ body.t1p .sidebar-v2-location #sidebar-v2 .hl_nav-settings {
   flex-grow: 1;
 }
 body.t1p .hl_nav-header > nav {
-  padding: 4px 0;
+  padding-bottom: 10px;
 }
 
 body.t1p a[meta="divider-1"]:not(.custom-divider) {
