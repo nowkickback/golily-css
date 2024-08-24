@@ -322,3 +322,9 @@ body.t1p .hl_nav-header > nav {
 body.t1p a[meta="divider-1"]:not(.custom-divider) {
   display: none;
 }
+
+body.t1p #smartlists .hl_controls.hl_smartlists--controls span[title="Please select contacts to remove tags"],
+body.t1p #smartlists .hl_controls.hl_smartlists--controls span[title="Add/Edit to Company"],
+body.t1p #smartlists .hl_controls.hl_smartlists--controls span[title="Please select contacts to add tags"] {
+  display: none;
+}
