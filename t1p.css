@@ -453,7 +453,7 @@ body.t1p div[class*='tag-🔁-']::before {
   background-color: rgb(45, 179, 199);
 }
 body.t1p .tag-🔁-in-rehash---cancelled::before {
-  content: '🔁 Rehash: Cancelled';
+  content: 'tag-🟤-replied-to-demo-no-sale-rehash';
 }
 body.t1p .tag-🔁-in-rehash---no-sale::before {
   content: '🔁 Rehash: No Sale';
@@ -463,6 +463,10 @@ body.t1p .tag-🔁-in-rehash---general-follow-up::before {
 }
 body.t1p .tag-🔁-in-rehash---no-show::before {
   content: '🔁 Rehash: No Show';
+}
+body.t1p .tag-🟤-replied-to-demo-no-sale-rehash::before {
+  content: '🔁 Replied to Rehash!';
+  background-color: #28cf3f;
 }
 
 /* DEV Account Visual Helper */
