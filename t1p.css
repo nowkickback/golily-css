@@ -414,15 +414,18 @@ body.t1p .n-config-provider .target .card[class*=w-] .cardWrapper .hl-card-conte
   border: 0 !important;
 }
 body.t1p div[class*='tag-rehash'] > .flex.justify-between,
-body.t1p div[class*='tag-🔁-'] > .flex.justify-between {
+body.t1p div[class*='tag-🔁-'] > .flex.justify-between,
+body.t1p div[class*='tag-unresulted-estimate'] > .flex.justify-between {
   margin-top: 28px;
 }
 body.t1p div[class*='tag-rehash'] .n-avatar,
-body.t1p div[class*='tag-🔁-'] .n-avatar {
+body.t1p div[class*='tag-🔁-'] .n-avatar,
+body.t1p div[class*='tag-unresulted-estimate'] .n-avatar {
   margin-top: 28px;
 }
 body.t1p div[class*='tag-rehash']::before,
-body.t1p div[class*='tag-🔁-']::before {
+body.t1p div[class*='tag-🔁-']::before,
+body.t1p div[class*='tag-unresulted-estimate']::before {
   text-transform: uppercase;
   font-size: smaller;
   position: absolute;
@@ -467,6 +470,10 @@ body.t1p .tag-🔁-in-rehash---no-show::before {
 body.t1p .tag-🟤-replied-to-demo-no-sale-rehash::before {
   content: '🔁 Replied to Rehash!';
   background-color: #28cf3f;
+}
+body.t1p .tag-unresulted-estimate::before {
+  content: '📄 Needs Result';
+  background-color: #E63946;
 }
 
 /* DEV Account Visual Helper */
