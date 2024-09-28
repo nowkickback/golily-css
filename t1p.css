@@ -495,3 +495,60 @@ body.t1p._3qNkFdUYSSgxs5F2ShD7::before {
 .sidebar-v2-location .hl_force-top.w-full.hl_topbar-tabs {
   padding-top: 93px !important;
 }
+
+
+/* Conversations List Fixes */
+.messages-list--item-v2 > div {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.message-list--avatar.avatar > .avatar {
+  display: none;
+}
+
+.message-list--avatar.avatar > i {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.messages-list--item-v2 > div > div:not(.message-list--avatar) {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.messages-list--item-v2 > div > div:not(.message-list--avatar) > div {
+  margin: 0;
+}
+
+.messages-list--item-v2 > div > div:not(.message-list--avatar) > div > div {
+  margin-top: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.messages-list--item-v2 > div > div:not(.message-list--avatar) > div > .mt-1 > .truncate {
+  font-weight: 500 !important;
+  font-size: 14px;
+}
+
+.messages-list--item-v2 > div > div:not(.message-list--avatar) > div > .mt-1 > .text-center {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.messages-list--item-v2 > div > div:not(.message-list--avatar) > div > div:not(.mt-1) > div:not(.content-center) {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.messages-list--item-v2 > div > div:not(.message-list--avatar) > div > .mt-1 > .text-center > .time-date {
+  border: none;
+  background: none;
+  font-weight: 400;
+  margin: 0;
+}
