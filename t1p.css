@@ -500,7 +500,7 @@ body.t1p._3qNkFdUYSSgxs5F2ShD7::before {
 /* Conversations List Fixes */
 .messages-list--item-v2 > div {
   flex-grow: 1;
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: space-between;
 }
@@ -515,13 +515,17 @@ body.t1p._3qNkFdUYSSgxs5F2ShD7::before {
   left: 0;
 }
 
+.messages-list--item-v2 {
+  min-height: 70px !important;
+}
+
 .messages-list--item-v2 > div > div:not(.message-list--avatar) {
   flex-grow: 1;
   width: 100%;
 }
 
 .messages-list--item-v2 > div > div:not(.message-list--avatar) > div {
-  margin: 0;
+  margin-left: 0 !important;
 }
 
 .messages-list--item-v2 > div > div:not(.message-list--avatar) > div > div {
