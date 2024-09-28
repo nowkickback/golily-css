@@ -72,9 +72,9 @@ body.t1p #toolbar-contact-buttons {
   border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 body.t1p #contact-buttons {
-  padding: 12px 10px 10px 10px;
+  padding: 12px 10px 10px 10px !important;
   text-align: center;
-  background-color: rgba(0,0,0,0.01);
+  background-color: rgba(0,0,0,0.01) !important;
   border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
@@ -360,6 +360,7 @@ body.t1p .hl_collapse-button {
   display: none;
 }
 
+/* Conversations Filter Buttons */
 body.t1p .hl_conversations--messages-list-v2 > div > div > .border-b-2 {
   height: 63px;
   border-bottom: 1px solid rgb(215, 218, 224);
@@ -372,8 +373,8 @@ body.t1p .hl_conversations--messages-list-v2 > div > div > .border-b-2 nav {
 }
 
 body.t1p .hl_conversations--messages-list-v2 > div > div > .border-b-2 > nav > a {
-  border: none;
-  border-radius: 0;
+  border: none !important;
+  border-radius: 0 !important;
   height: 100%;
   display: flex;
   align-items: center;
@@ -400,6 +401,7 @@ body.t1p .hl_conversations--messages-list-v2 > div > div:nth-child(2) > div:firs
   align-items: center;
   justify-content: space-between;
 }
+/* End Conversations Filter Buttons */
 
 body.t1p #location-dashboard_date-picker {
   display: none;
@@ -487,4 +489,9 @@ body.t1p._3qNkFdUYSSgxs5F2ShD7::before {
   right: 0;
   bottom: 0;
   pointer-events: none;
+}
+
+/* Top padding fix */
+.sidebar-v2-location .hl_force-top.w-full.hl_topbar-tabs {
+  padding-top: 98px !important;
 }
