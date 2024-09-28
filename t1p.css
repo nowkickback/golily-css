@@ -533,17 +533,13 @@ body.t1p._3qNkFdUYSSgxs5F2ShD7::before {
 
 .messages-list--item-v2 > div > div:not(.message-list--avatar) > div > .mt-1 > .truncate {
   font-weight: 500 !important;
-  font-size: 14px;
+  font-size: 14px !important;
 }
 
-.messages-list--item-v2 > div > div:not(.message-list--avatar) > div > .mt-1 > .text-center {
-  flex-grow: 1;
-  text-align: right;
-}
-
+.messages-list--item-v2 > div > div:not(.message-list--avatar) > div > .mt-1 > .text-center,
 .messages-list--item-v2 > div > div:not(.message-list--avatar) > div > div:not(.mt-1) > div:not(.content-center) {
   flex-grow: 1;
-  text-align: right;
+  text-align: right !important;
 }
 
 .messages-list--item-v2 > div > div:not(.message-list--avatar) > div > .mt-1 > .text-center > .time-date {
