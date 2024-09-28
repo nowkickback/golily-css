@@ -492,61 +492,61 @@ body.t1p._3qNkFdUYSSgxs5F2ShD7::before {
 }
 
 /* Top padding fix */
-.sidebar-v2-location .hl_force-top.w-full.hl_topbar-tabs {
+body.t1p .sidebar-v2-location .hl_force-top.w-full.hl_topbar-tabs {
   padding-top: 93px !important;
 }
 
 
 /* Conversations List Fixes */
-.messages-list--item-v2 > div {
+body.t1p .messages-list--item-v2 > div {
   flex-grow: 1;
   display: flex !important;
   align-items: center;
   justify-content: space-between;
 }
 
-.message-list--avatar.avatar > .avatar {
+body.t1p .message-list--avatar.avatar > .avatar {
   display: none;
 }
 
-.message-list--avatar.avatar > i {
+body.t1p .message-list--avatar.avatar > i {
   position: relative;
   top: 0;
   left: 0;
 }
 
-.messages-list--item-v2 {
+body.t1p .messages-list--item-v2 {
   min-height: 70px !important;
 }
 
-.messages-list--item-v2 > div > div:not(.message-list--avatar) {
+body.t1p .messages-list--item-v2 > div > div:not(.message-list--avatar) {
   flex-grow: 1;
   width: 100%;
 }
 
-.messages-list--item-v2 > div > div:not(.message-list--avatar) > div {
+body.t1p .messages-list--item-v2 > div > div:not(.message-list--avatar) > div {
   margin-left: 0 !important;
 }
 
-.messages-list--item-v2 > div > div:not(.message-list--avatar) > div > div {
+body.t1p .messages-list--item-v2 > div > div:not(.message-list--avatar) > div > div {
   margin-top: 0 !important;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.messages-list--item-v2 > div > div:not(.message-list--avatar) > div > .mt-1 > .truncate {
+body.t1p .messages-list--item-v2 > div > div:not(.message-list--avatar) > div > .mt-1 > .truncate {
   font-weight: 500 !important;
   font-size: 14px !important;
 }
 
-.messages-list--item-v2 > div > div:not(.message-list--avatar) > div > .mt-1 > .text-center,
-.messages-list--item-v2 > div > div:not(.message-list--avatar) > div > div:not(.mt-1) > div:not(.content-center) {
+body.t1p .messages-list--item-v2 > div > div:not(.message-list--avatar) > div > .mt-1 > .text-center,
+body.t1p .messages-list--item-v2 > div > div:not(.message-list--avatar) > div > div:not(.mt-1) > div:not(.content-center) {
   flex-grow: 1;
   text-align: right !important;
 }
 
-.messages-list--item-v2 > div > div:not(.message-list--avatar) > div > .mt-1 > .text-center > .time-date {
+body.t1p .messages-list--item-v2 > div > div:not(.message-list--avatar) > div > .mt-1 > .text-center > .time-date {
   border: none;
   background: none;
   font-weight: 400;
