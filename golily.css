@@ -1,5 +1,5 @@
 /* Darken Background when iframe is open */
-body.t1p:has(.jsPanel)::before {
+body.golily:has(.jsPanel)::before {
   content: "";
   position: fixed;
   top: 0;
@@ -13,65 +13,65 @@ body.t1p:has(.jsPanel)::before {
 
 
 /* Contacts List button fixes */
-body.t1p #hl_smartlists-main div.flex-page-bar,
-body.t1p #hl_smartlists-main div.card-like {
+body.golily #hl_smartlists-main div.flex-page-bar,
+body.golily #hl_smartlists-main div.card-like {
   background-color: transparent !important;
 }
-body.t1p #hl_smartlists-main div.card-like {
+body.golily #hl_smartlists-main div.card-like {
   padding: 0.5rem 0 0.5rem 0
 }
 
 
 /* Sidebar Search and Quick Actions button */
-body.t1p #globalSearchOpener {
+body.golily #globalSearchOpener {
   border-radius: 4px;
   height: 36px;
   display: flex;
   padding-left: 4px;
 }
-body.t1p #quickActions {
+body.golily #quickActions {
   border-radius: 4px !important;
   background-color: rgba(0,0,0,0.4) !important;
   border-color: rgba(0,0,0,0.4) !important;
   height: 36px;
   width: 36px;
 }
-body.t1p #location-switcher-sidbar-v2 {
+body.golily #location-switcher-sidbar-v2 {
   margin-bottom: 8px;
 }
-body.t1p .sidebar-v2-location #sidebar-v2 #globalSearchOpener span.search-placeholder {
+body.golily .sidebar-v2-location #sidebar-v2 #globalSearchOpener span.search-placeholder {
   line-height: 12px;
   font-size: 12px;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.6) !important;
 }
-body.t1p #globalSearchOpener > div {
+body.golily #globalSearchOpener > div {
   align-items: center;
 }
-body.t1p .search-icon {
+body.golily .search-icon {
   margin-right: 8px;
 }
-body.t1p .search-shortcut {
+body.golily .search-shortcut {
   text-transform: uppercase;
   font-size: 10px;
 }
 
 
 
-body.t1p .hl_wrapper.hl_contact--details > section {
+body.golily .hl_wrapper.hl_contact--details > section {
   overflow-y: hidden;
 }
 
 
 /* GHL Customizer Contact Buttons */
-body.t1p #toolbar-contact-buttons {
+body.golily #toolbar-contact-buttons {
   padding: 14px 10px 10px 10px !important;
   text-align: center;
   background-color: rgba(0,0,0,0.01) !important;
   border-bottom: 1px solid rgba(0,0,0,0.1);
 }
-body.t1p #contact-buttons {
+body.golily #contact-buttons {
   padding: 12px 10px 10px 10px !important;
   text-align: center;
   background-color: rgba(0,0,0,0.01) !important;
@@ -79,61 +79,61 @@ body.t1p #contact-buttons {
 }
 
 
-body.t1p #contacts-right-tabs-bar-wrapper a.nav-link.contact-tab-item {
+body.golily #contacts-right-tabs-bar-wrapper a.nav-link.contact-tab-item {
   margin-top: 0 !important;
 }
 
-body.t1p .activity-tab-details {
+body.golily .activity-tab-details {
   padding: 0;
 }
 
-body.t1p .activity-tab-details .card {
+body.golily .activity-tab-details .card {
   box-shadow: none;
 }
 
-body.t1p #OwnersComponent .mb-1:not(.w-max) {
+body.golily #OwnersComponent .mb-1:not(.w-max) {
   display: none;
 }
 
-body.t1p #OwnersComponent .mb-1.w-max {
+body.golily #OwnersComponent .mb-1.w-max {
   font-size: 0;
   margin: 0;
 }
 
-body.t1p #OwnersComponent .mb-1.w-max:before {
+body.golily #OwnersComponent .mb-1.w-max:before {
   content: "Owner";
   text-transform: uppercase;
   font-size: 12px;
   margin-right: 8px;
 }
 
-body.t1p #OwnersComponent .flex {
+body.golily #OwnersComponent .flex {
   align-items: center;
 }
 
-body.t1p #OwnersComponent .flex .border-r {
+body.golily #OwnersComponent .flex .border-r {
   border: none;
   display: flex;
   align-items: center;
 }
 
-body.t1p .hl_conversations--message-header-new .flex {
+body.golily .hl_conversations--message-header-new .flex {
   align-items: center;
 }
 
-body.t1p button[data-color="#ffffff"] {
+body.golily button[data-color="#ffffff"] {
   visibility: hidden;
 }
 
-body.t1p .sidebar-v2-location .hl_wrapper.hl_topbar-tabs #conversations.hl_wrapper--inner {
+body.golily .sidebar-v2-location .hl_wrapper.hl_topbar-tabs #conversations.hl_wrapper--inner {
   padding-top: 5px;
 }
 
-body.t1p .sidebar-v2-location #sidebar-v2 .hl_nav-header nav>a:before {
+body.golily .sidebar-v2-location #sidebar-v2 .hl_nav-header nav>a:before {
   background: transparent;
 }
 
-body.t1p .task-counter {
+body.golily .task-counter {
   display: flex;
   width: 2em;
   height: 2em;
@@ -141,63 +141,63 @@ body.t1p .task-counter {
   justify-content: center;
 }
 
-body.t1p div.hl_conversations--message-header-new {
+body.golily div.hl_conversations--message-header-new {
   padding-left: 16px;
   padding-right: 16px;
 }
 
-body.t1p div.w-full.contact-detail-nav {
+body.golily div.w-full.contact-detail-nav {
   height: 55px;
 }
 
-body.t1p ul.nav.nav-tabs.--dont-stack.nav-tabs-pd.tabs-container {
+body.golily ul.nav.nav-tabs.--dont-stack.nav-tabs-pd.tabs-container {
   border-bottom: none;
   height: 55px;
   display: flex;
 }
 
-body.t1p a.nav-link.contact-tab-item {
+body.golily a.nav-link.contact-tab-item {
   width: 100%;
   margin-bottom: 0;
   
 }
 
-body.t1p .customerPageClass .card.task-list-card {
+body.golily .customerPageClass .card.task-list-card {
   margin: 0;
   box-shadow: none;
 }
 
-body.t1p .text-curious-blue-500.truncate + .text-gray-500.pt-2.truncate.d-block {
+body.golily .text-curious-blue-500.truncate + .text-gray-500.pt-2.truncate.d-block {
   white-space: pre-line;
   font-weight: 400;
 }
 
-body.t1p span.text-gray-500.pl-1.truncate {
+body.golily span.text-gray-500.pl-1.truncate {
   text-transform: capitalize;
   margin-left: 2px;
 }
 
-body.t1p div a:not(.topmenu-navitem) div {
+body.golily div a:not(.topmenu-navitem) div {
   display: flex;
   align-items: center;
 }
 
-body.t1p.opportunitiesCard .hl-card-content {
+body.golily.opportunitiesCard .hl-card-content {
   border: none;
 }
 
-body.t1p .tag-🔁-follow-up-1-month {
+body.golily .tag-🔁-follow-up-1-month {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-body.t1p .tag-🔁-follow-up-1-month > .flex.justify-between {
+body.golily .tag-🔁-follow-up-1-month > .flex.justify-between {
   margin-top: 26px;
 }
-body.t1p .tag-🔁-follow-up-1-month .n-avatar {
+body.golily .tag-🔁-follow-up-1-month .n-avatar {
   margin-top: 26px;
 }
 
-body.t1p .tag-🔁-follow-up-1-month::before {
+body.golily .tag-🔁-follow-up-1-month::before {
   content: 'In Rehash - Waiting...';
   text-transform: uppercase;
   font-size: smaller;
@@ -215,46 +215,46 @@ body.t1p .tag-🔁-follow-up-1-month::before {
   font-weight: 500;
 }
 
-body.t1p #filters + div span.text-gray-500.pt-2.truncate.d-block {
+body.golily #filters + div span.text-gray-500.pt-2.truncate.d-block {
   white-space: pre-line;
 }
 
-body.t1p .hl_tasks .hl_products--item-text p {
+body.golily .hl_tasks .hl_products--item-text p {
   display: block;
   white-space: pre-line;
   padding-bottom: 6px;
 }
 
-body.t1p .contact-detail-nav > div > span {
+body.golily .contact-detail-nav > div > span {
   flex: 1 auto;
   max-width: inherit;
   font-weight: 500 !important;
   font-size: 1rem !important;
 }
 
-body.t1p .contact-detail-nav > div {
+body.golily .contact-detail-nav > div {
   width: 100%;
   justify-content: start;
 }
 
-body.t1p .card:not(.cardWrapper .card) {
+body.golily .card:not(.cardWrapper .card) {
   border-radius: 15px;
 }
 
 
 /* Dashboard Title Heading Edits */
-body.t1p #location-dashboard .location-dashboard-title-chart-container {
+body.golily #location-dashboard .location-dashboard-title-chart-container {
   background: transparent;
 }
 
-body.t1p #location-dashboard .location-dashboard-title-chart-container .hl-card-content {
+body.golily #location-dashboard .location-dashboard-title-chart-container .hl-card-content {
   background-color: #2DB3C7;
   padding: 15px 20px !important;
   border-top-left-radius: 15px !important;
   border-top-right-radius: 15px !important;
 }
 
-body.t1p .location-dashboard-title-chart-container .hl-card-content .title-text {
+body.golily .location-dashboard-title-chart-container .hl-card-content .title-text {
   color: white;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -263,10 +263,10 @@ body.t1p .location-dashboard-title-chart-container .hl-card-content .title-text 
 }
 
 /* Sidebar Edits for fancy icons */
-body.t1p .sidebar-v2-agency #sidebar-v2 .flex-col a img,
-body.t1p .sidebar-v2-location #sidebar-v2 .flex-col a img,
-body.t1p .sidebar-v2-agency #sidebar-v2 .flex-col a img,
-body.t1p .sidebar-v2-location #sidebar-v2 .flex-col a i:not(.caret) {
+body.golily .sidebar-v2-agency #sidebar-v2 .flex-col a img,
+body.golily .sidebar-v2-location #sidebar-v2 .flex-col a img,
+body.golily .sidebar-v2-agency #sidebar-v2 .flex-col a img,
+body.golily .sidebar-v2-location #sidebar-v2 .flex-col a i:not(.caret) {
   width: 40px;
   height: 40px;
   background-color: rgba(255, 255, 255, 0.2);
@@ -274,8 +274,8 @@ body.t1p .sidebar-v2-location #sidebar-v2 .flex-col a i:not(.caret) {
   padding: 4px;
   margin-right: 12px;
 }
-body.t1p .sidebar-v2-agency #sidebar-v2 .flex-col a img,
-body.t1p .sidebar-v2-location #sidebar-v2 .flex-col a i.h-5.w-5:not(.caret) {
+body.golily .sidebar-v2-agency #sidebar-v2 .flex-col a img,
+body.golily .sidebar-v2-location #sidebar-v2 .flex-col a i.h-5.w-5:not(.caret) {
   height: 40px !important;
   width: 40px;
   background-color: rgba(255, 255, 255, 0.2) !important;
@@ -284,20 +284,20 @@ body.t1p .sidebar-v2-location #sidebar-v2 .flex-col a i.h-5.w-5:not(.caret) {
   left: 0 !important;
 }
 
-body.t1p .sidebar-v2-location:not(.v2-collapse) #sidebar-v2 .hl_nav-header nav a.mkt-menu-list,
-body.t1p .sidebar-v2-location:not(.v2-collapse) #sidebar-v2 .hl_nav-header nav a.mkt-folder {
+body.golily .sidebar-v2-location:not(.v2-collapse) #sidebar-v2 .hl_nav-header nav a.mkt-menu-list,
+body.golily .sidebar-v2-location:not(.v2-collapse) #sidebar-v2 .hl_nav-header nav a.mkt-folder {
   margin: 0 !important;
   padding: 8px !important;
   font-size: 1.1rem;
   border-radius: 0 !important;
 }
 
-body.t1p .sidebar-v2-location.v2-collapse #sidebar-v2 .flex-col a img,
-body.t1p .sidebar-v2-location.v2-collapse #sidebar-v2 .flex-col a i:not(.caret) {
+body.golily .sidebar-v2-location.v2-collapse #sidebar-v2 .flex-col a img,
+body.golily .sidebar-v2-location.v2-collapse #sidebar-v2 .flex-col a i:not(.caret) {
   margin-right: 0;
   width: auto;
 }
-body.t1p .sidebar-v2-location.v2-collapse #taskCount {
+body.golily .sidebar-v2-location.v2-collapse #taskCount {
   position: absolute;
   z-index: 10;
   top: 0;
@@ -305,74 +305,74 @@ body.t1p .sidebar-v2-location.v2-collapse #taskCount {
   margin: -5px -5px 0 0;
 }
 
-body.t1p #sidebar-v2 .lead-connector {
+body.golily #sidebar-v2 .lead-connector {
   padding-bottom: 0 !important;
 }
 
-body.t1p .sidebar-v2-location #sidebar-v2 .hl_nav-header,
-body.t1p .sidebar-v2-location #sidebar-v2 .hl_nav-settings {
+body.golily .sidebar-v2-location #sidebar-v2 .hl_nav-header,
+body.golily .sidebar-v2-location #sidebar-v2 .hl_nav-settings {
   background-color: rgba(0,0,0,0.3);
   max-height: unset !important;
   flex-grow: 1;
 }
-body.t1p .hl_nav-header > nav {
+body.golily .hl_nav-header > nav {
   padding-bottom: 10px;
 }
 
-body.t1p a[meta="divider-1"]:not(.custom-divider) {
+body.golily a[meta="divider-1"]:not(.custom-divider) {
   display: none;
 }
 
-body.t1p #smartlists .hl_controls.hl_smartlists--controls span[title="Please select contacts to remove tags"],
-body.t1p #smartlists .hl_controls.hl_smartlists--controls span[title="Add/Edit to Company"],
-body.t1p #smartlists .hl_controls.hl_smartlists--controls span[title="Please select contacts to add tags"] {
+body.golily #smartlists .hl_controls.hl_smartlists--controls span[title="Please select contacts to remove tags"],
+body.golily #smartlists .hl_controls.hl_smartlists--controls span[title="Add/Edit to Company"],
+body.golily #smartlists .hl_controls.hl_smartlists--controls span[title="Please select contacts to add tags"] {
   display: none;
 }
 
-body.t1p .location-dashboard_header > div {
+body.golily .location-dashboard_header > div {
   position: relative;
 }
 
-body.t1p .location-dashboard_header .hl-header-content {
+body.golily .location-dashboard_header .hl-header-content {
   align-items: center;
 }
 
-body.t1p .location-dashboard_header .hl-header-content:after {
+body.golily .location-dashboard_header .hl-header-content:after {
   content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='size-5'%3E%3Cpath fill-rule='evenodd' d='M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z' clip-rule='evenodd' /%3E%3C/svg%3E%0A");
   margin-left: 4px;
   width: 20px;
   height: 20px;
 }
 
-body.t1p .location-dashboard-image-element-container .hl-card-content {
+body.golily .location-dashboard-image-element-container .hl-card-content {
   background: #2DB3C7;
   padding: 20px;
 }
 
 
-body.t1p .location-dashboard_header > div > div > button {
+body.golily .location-dashboard_header > div > div > button {
   position: absolute;
   width: 100%;
   opacity: 0;
 }
 
-body.t1p .hl_collapse-button {
+body.golily .hl_collapse-button {
   display: none;
 }
 
 /* Conversations Filter Buttons */
-body.t1p .hl_conversations--messages-list-v2 > div > div > .border-b-2 {
+body.golily .hl_conversations--messages-list-v2 > div > div > .border-b-2 {
   height: 63px;
   border-bottom: 1px solid rgb(215, 218, 224);
 }
 
-body.t1p .hl_conversations--messages-list-v2 > div > div > .border-b-2 nav {
+body.golily .hl_conversations--messages-list-v2 > div > div > .border-b-2 nav {
   padding: 0;
   height: 100%;
   align-items: center;
 }
 
-body.t1p .hl_conversations--messages-list-v2 > div > div > .border-b-2 > nav > a {
+body.golily .hl_conversations--messages-list-v2 > div > div > .border-b-2 > nav > a {
   border: none !important;
   border-radius: 0 !important;
   height: 100%;
@@ -381,7 +381,7 @@ body.t1p .hl_conversations--messages-list-v2 > div > div > .border-b-2 > nav > a
   justify-content: center;
 }
 
-body.t1p .hl_conversations--messages-list-v2 > div > div:nth-child(2) > div:first-child {
+body.golily .hl_conversations--messages-list-v2 > div > div:nth-child(2) > div:first-child {
   border-bottom: 1px solid rgb(215, 218, 224);
   margin: 0;
   padding: 0;
@@ -389,12 +389,12 @@ body.t1p .hl_conversations--messages-list-v2 > div > div:nth-child(2) > div:firs
   align-items: center;
 }
 
-body.t1p .hl_conversations--messages-list-v2 > div > div:nth-child(2) > div:first-child > .mt-1.ml-1 {
+body.golily .hl_conversations--messages-list-v2 > div > div:nth-child(2) > div:first-child > .mt-1.ml-1 {
   margin: 10px 6px;
   flex: 1 auto;
 }
 
-body.t1p .hl_conversations--messages-list-v2 > div > div:nth-child(2) > div:first-child > div:last-child {
+body.golily .hl_conversations--messages-list-v2 > div > div:nth-child(2) > div:first-child > div:last-child {
   padding: 0;
   margin: 6px;
   display: flex;
@@ -403,31 +403,31 @@ body.t1p .hl_conversations--messages-list-v2 > div > div:nth-child(2) > div:firs
 }
 /* End Conversations Filter Buttons */
 
-body.t1p #location-dashboard_date-picker {
+body.golily #location-dashboard_date-picker {
   display: none;
 }
 
-body.t1p .custom-link > iframe {
+body.golily .custom-link > iframe {
   height: calc(100vh - 48px) !important;
 }
 
 /* Pipeline Cards Tag Banner */
-body.t1p .n-config-provider .target .card[class*=w-] .cardWrapper .hl-card-content {
+body.golily .n-config-provider .target .card[class*=w-] .cardWrapper .hl-card-content {
   border: 0 !important;
 }
-body.t1p div[class*='tag-rehash'] > .flex.justify-between,
-body.t1p div[class*='tag-🔁-'] > .flex.justify-between,
-body.t1p div[class*='tag-unresulted-estimate'] > .flex.justify-between {
+body.golily div[class*='tag-rehash'] > .flex.justify-between,
+body.golily div[class*='tag-🔁-'] > .flex.justify-between,
+body.golily div[class*='tag-unresulted-estimate'] > .flex.justify-between {
   margin-top: 28px;
 }
-body.t1p div[class*='tag-rehash'] .n-avatar,
-body.t1p div[class*='tag-🔁-'] .n-avatar,
-body.t1p div[class*='tag-unresulted-estimate'] .n-avatar {
+body.golily div[class*='tag-rehash'] .n-avatar,
+body.golily div[class*='tag-🔁-'] .n-avatar,
+body.golily div[class*='tag-unresulted-estimate'] .n-avatar {
   margin-top: 28px;
 }
-body.t1p div[class*='tag-rehash']::before,
-body.t1p div[class*='tag-🔁-']::before,
-body.t1p div[class*='tag-unresulted-estimate']::before {
+body.golily div[class*='tag-rehash']::before,
+body.golily div[class*='tag-🔁-']::before,
+body.golily div[class*='tag-unresulted-estimate']::before {
   text-transform: uppercase;
   font-size: smaller;
   position: absolute;
@@ -446,40 +446,40 @@ body.t1p div[class*='tag-unresulted-estimate']::before {
 
 /* Pipeline Cards Tag Banner Content */
 /* In Order of Priority (bottom-most is shown) */
-body.t1p .tag-rehash-waiting::before {
+body.golily .tag-rehash-waiting::before {
   content: '🔁 Rehash - Waiting...';
   background-color: rgb(180, 180, 180);
 }
-body.t1p .tag-rehash-no-reply::before {
+body.golily .tag-rehash-no-reply::before {
   content: '🔁 No Reply to Rehash Campaign';
   background-color: #E63946;
 }
-body.t1p div[class*='tag-🔁-']::before {
+body.golily div[class*='tag-🔁-']::before {
   background-color: rgb(45, 179, 199);
 }
-body.t1p .tag-🔁-in-rehash---cancelled::before {
+body.golily .tag-🔁-in-rehash---cancelled::before {
   content: 'tag-🟤-replied-to-demo-no-sale-rehash';
 }
-body.t1p .tag-🔁-in-rehash---no-sale::before {
+body.golily .tag-🔁-in-rehash---no-sale::before {
   content: '🔁 Rehash: No Sale';
 }
-body.t1p .tag-🔁-in-rehash---general-follow-up::before {
+body.golily .tag-🔁-in-rehash---general-follow-up::before {
   content: '🔁 Rehash: General Follow-Up';
 }
-body.t1p .tag-🔁-in-rehash---no-show::before {
+body.golily .tag-🔁-in-rehash---no-show::before {
   content: '🔁 Rehash: No Show';
 }
-body.t1p .tag-🟤-replied-to-demo-no-sale-rehash::before {
+body.golily .tag-🟤-replied-to-demo-no-sale-rehash::before {
   content: '🔁 Replied to Rehash!';
   background-color: #28cf3f;
 }
-body.t1p .tag-unresulted-estimate::before {
+body.golily .tag-unresulted-estimate::before {
   content: '📄 Needs Result';
   background-color: #E63946;
 }
 
 /* DEV Account Visual Helper */
-body.t1p._3qNkFdUYSSgxs5F2ShD7::before {
+body.golily._3qNkFdUYSSgxs5F2ShD7::before {
   z-index: 9999;
   content: '';
   border: 4px solid red;
@@ -492,61 +492,61 @@ body.t1p._3qNkFdUYSSgxs5F2ShD7::before {
 }
 
 /* Top padding fix */
-body.t1p .sidebar-v2-location .hl_force-top.w-full.hl_topbar-tabs {
+body.golily .sidebar-v2-location .hl_force-top.w-full.hl_topbar-tabs {
   padding-top: 93px !important;
 }
 
 
 /* Conversations List Fixes */
-body.t1p .messages-list--item-v2 > div {
+body.golily .messages-list--item-v2 > div {
   flex-grow: 1;
   display: flex !important;
   align-items: center;
   justify-content: space-between;
 }
 
-body.t1p .message-list--avatar.avatar > .avatar {
+body.golily .message-list--avatar.avatar > .avatar {
   display: none;
 }
 
-body.t1p .message-list--avatar.avatar > i {
+body.golily .message-list--avatar.avatar > i {
   position: relative;
   top: 0;
   left: 0;
 }
 
-body.t1p .messages-list--item-v2 {
+body.golily .messages-list--item-v2 {
   min-height: 70px !important;
 }
 
-body.t1p .messages-list--item-v2 > div > div:not(.message-list--avatar) {
+body.golily .messages-list--item-v2 > div > div:not(.message-list--avatar) {
   flex-grow: 1;
   width: 100%;
 }
 
-body.t1p .messages-list--item-v2 > div > div:not(.message-list--avatar) > div {
+body.golily .messages-list--item-v2 > div > div:not(.message-list--avatar) > div {
   margin-left: 0 !important;
 }
 
-body.t1p .messages-list--item-v2 > div > div:not(.message-list--avatar) > div > div {
+body.golily .messages-list--item-v2 > div > div:not(.message-list--avatar) > div > div {
   margin-top: 0 !important;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-body.t1p .messages-list--item-v2 > div > div:not(.message-list--avatar) > div > .mt-1 > .truncate {
+body.golily .messages-list--item-v2 > div > div:not(.message-list--avatar) > div > .mt-1 > .truncate {
   font-weight: 500 !important;
   font-size: 14px !important;
 }
 
-body.t1p .messages-list--item-v2 > div > div:not(.message-list--avatar) > div > .mt-1 > .text-center,
-body.t1p .messages-list--item-v2 > div > div:not(.message-list--avatar) > div > div:not(.mt-1) > div:not(.content-center) {
+body.golily .messages-list--item-v2 > div > div:not(.message-list--avatar) > div > .mt-1 > .text-center,
+body.golily .messages-list--item-v2 > div > div:not(.message-list--avatar) > div > div:not(.mt-1) > div:not(.content-center) {
   flex-grow: 1;
   text-align: right !important;
 }
 
-body.t1p .messages-list--item-v2 > div > div:not(.message-list--avatar) > div > .mt-1 > .text-center > .time-date {
+body.golily .messages-list--item-v2 > div > div:not(.message-list--avatar) > div > .mt-1 > .text-center > .time-date {
   border: none;
   background: none;
   font-weight: 400;
