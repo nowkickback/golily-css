@@ -409,6 +409,10 @@ body.golily .tag-rehash-no-reply::before {
   content: '🔁 Rehash - No Reply!';
   background-color: #E63946;
 }
+body.golily .tag-rehash-replied::before {
+  content: '🔁 Replied to Rehash!';
+  background-color: #28cf3f;
+}
 body.golily .tag-estimate-unresulted::before {
   content: '📄 Estimate Unresulted!';
   background-color: #E63946;
