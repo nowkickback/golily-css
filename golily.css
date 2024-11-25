@@ -414,6 +414,10 @@ body.golily .tag-rehash-replied::before {
   background-color: #28cf3f;
 }
 body.golily .tag-estimate-unresulted::before {
+  content: '📄 Estimate - Waiting for Result...';
+  background-color: rgb(180, 180, 180);
+}
+body.golily .tag-estimate-unresulted::before {
   content: '📄 Estimate Unresulted!';
   background-color: #E63946;
 }
