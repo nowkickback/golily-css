@@ -186,35 +186,6 @@ body.golily.opportunitiesCard .hl-card-content {
   border: none;
 }
 
-body.golily .tag-🔁-follow-up-1-month {
-  background-color: rgba(0, 0, 0, 0.05);
-}
-
-body.golily .tag-🔁-follow-up-1-month > .flex.justify-between {
-  margin-top: 26px;
-}
-body.golily .tag-🔁-follow-up-1-month .n-avatar {
-  margin-top: 26px;
-}
-
-body.golily .tag-🔁-follow-up-1-month::before {
-  content: 'In Rehash - Waiting...';
-  text-transform: uppercase;
-  font-size: smaller;
-  position: absolute;
-  letter-spacing: 0.3px;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  background-color: rgb(45, 179, 199);
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  padding: 4px 8px;
-  color: white;
-  font-weight: 500;
-}
-
 body.golily #filters + div span.text-gray-500.pt-2.truncate.d-block {
   white-space: pre-line;
 }
@@ -399,18 +370,15 @@ body.golily .n-config-provider .target .card[class*=w-] .cardWrapper .hl-card-co
   border: 0 !important;
 }
 body.golily div[class*='tag-rehash'] > .flex.justify-between,
-body.golily div[class*='tag-🔁-'] > .flex.justify-between,
-body.golily div[class*='tag-unresulted-estimate'] > .flex.justify-between {
+body.golily div[class*='tag-estimate'] > .flex.justify-between {
   margin-top: 28px;
 }
 body.golily div[class*='tag-rehash'] .n-avatar,
-body.golily div[class*='tag-🔁-'] .n-avatar,
-body.golily div[class*='tag-unresulted-estimate'] .n-avatar {
+body.golily div[class*='tag-estimate'] .n-avatar {
   margin-top: 28px;
 }
 body.golily div[class*='tag-rehash']::before,
-body.golily div[class*='tag-🔁-']::before,
-body.golily div[class*='tag-unresulted-estimate']::before {
+body.golily div[class*='tag-estimate']::before {
   text-transform: uppercase;
   font-size: smaller;
   position: absolute;
@@ -430,34 +398,19 @@ body.golily div[class*='tag-unresulted-estimate']::before {
 /* Pipeline Cards Tag Banner Content */
 /* In Order of Priority (bottom-most is shown) */
 body.golily .tag-rehash-waiting::before {
-  content: '🔁 Rehash - Waiting...';
+  content: '🔁 Rehash - Waiting for Delay...';
   background-color: rgb(180, 180, 180);
 }
+body.golily .tag-rehash-active::before {
+  content: '🔁 Rehash - Active';
+  background-color: rgb(81, 175, 230);
+}
 body.golily .tag-rehash-no-reply::before {
-  content: '🔁 No Reply to Rehash Campaign';
+  content: '🔁 Rehash - No Reply!';
   background-color: #E63946;
 }
-body.golily div[class*='tag-🔁-']::before {
-  background-color: rgb(45, 179, 199);
-}
-body.golily .tag-🔁-in-rehash---cancelled::before {
-  content: 'tag-🟤-replied-to-demo-no-sale-rehash';
-}
-body.golily .tag-🔁-in-rehash---no-sale::before {
-  content: '🔁 Rehash: No Sale';
-}
-body.golily .tag-🔁-in-rehash---general-follow-up::before {
-  content: '🔁 Rehash: General Follow-Up';
-}
-body.golily .tag-🔁-in-rehash---no-show::before {
-  content: '🔁 Rehash: No Show';
-}
-body.golily .tag-🟤-replied-to-demo-no-sale-rehash::before {
-  content: '🔁 Replied to Rehash!';
-  background-color: #28cf3f;
-}
-body.golily .tag-unresulted-estimate::before {
-  content: '📄 Needs Result';
+body.golily .tag-estimate-unresulted::before {
+  content: '📄 Estimate Unresulted!';
   background-color: #E63946;
 }
 
