@@ -241,27 +241,6 @@ body.golily .card:not(.cardWrapper .card) {
   border-radius: 15px;
 }
 
-
-/* Dashboard Title Heading Edits */
-body.golily #location-dashboard .location-dashboard-title-chart-container {
-  background: transparent;
-}
-
-body.golily #location-dashboard .location-dashboard-title-chart-container .hl-card-content {
-  background-color: #2DB3C7;
-  padding: 15px 20px !important;
-  border-top-left-radius: 15px !important;
-  border-top-right-radius: 15px !important;
-}
-
-body.golily .location-dashboard-title-chart-container .hl-card-content .title-text {
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 500;
-  font-size: 2rem;
-}
-
 /* Sidebar Edits for fancy icons */
 body.golily .sidebar-v2-agency #sidebar-v2 .flex-col a img,
 body.golily .sidebar-v2-location #sidebar-v2 .flex-col a img,
