@@ -288,9 +288,13 @@ body.golily #sidebar-v2 .lead-connector {
   padding-bottom: 0 !important;
 }
 
+body.golily #sidebar-v2 {
+  border-right: 0;
+}
+
 body.golily .sidebar-v2-location #sidebar-v2 .hl_nav-header,
 body.golily .sidebar-v2-location #sidebar-v2 .hl_nav-settings {
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(95, 175, 233, 0.5);
   max-height: unset !important;
   flex-grow: 1;
 }
