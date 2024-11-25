@@ -288,8 +288,8 @@ body.golily #sidebar-v2 .lead-connector {
   padding-bottom: 0 !important;
 }
 
-body.golily #sidebar-v2 {
-  border-right: 0;
+body.golily .sidebar-v2-location #sidebar-v2.default-bg-color {
+  border-right: 0 !important;
 }
 
 body.golily .sidebar-v2-location #sidebar-v2 .hl_nav-header,
