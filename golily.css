@@ -272,6 +272,35 @@ body.golily .sidebar-v2-location #sidebar-v2 .hl_nav-settings {
 body.golily .hl_nav-header > nav {
   padding-bottom: 10px;
 }
+body.golily .sidebar-v2-location #sidebar-v2 #backButtonv2 {
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  border-radius: 0;
+}
+body.golily .sidebar-v2-location #sidebar-v2 #backButtonv2 + .menu-title {
+  margin-top: 0;
+  background-color: rgba(0,0,0,0.4);
+  padding-left: 8px;
+}
+body.golily #sidebar-v2 .hl_nav-header-without-footer {
+  background-color: rgba(0,0,0,0.4);
+  flex-grow: 1;
+}
+body.golily #sidebar-v2 .hl_nav-header-without-footer nav {
+  padding: 0;
+}
+body.golily .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a,
+body.golily .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body.golily .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active {
+  border-radius: 0;
+}
+body.golily .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a:hover {
+  transform: none;
+  border-radius: 0;
+}
 
 body.golily a[meta="divider-1"]:not(.custom-divider) {
   display: none;
