@@ -265,7 +265,7 @@ body.golily .sidebar-v2-location #sidebar-v2.default-bg-color {
 
 body.golily .sidebar-v2-location #sidebar-v2 .hl_nav-header,
 body.golily .sidebar-v2-location #sidebar-v2 .hl_nav-settings {
-  background-color: rgba(95, 175, 233, 0.5);
+  background-color: rgba(7, 195, 205, 0.2);
   max-height: unset !important;
   flex-grow: 1;
 }
