@@ -386,6 +386,12 @@ body.golily .hl_conversations--messages-list-v2 > div > div:nth-child(2) > div:f
 }
 /* End Conversations Filter Buttons */
 
+body.golily .message-list--avatar .icon.icon-v2.w-\[22px\].h-\[22px\] {
+  width: 32px;
+  height: 32px;
+  padding: 6px;
+}
+
 body.golily #location-dashboard_date-picker {
   display: none;
 }
