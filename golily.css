@@ -65,13 +65,15 @@ body.golily .hl_wrapper.hl_contact--details > section {
 
 
 /* GHL Customizer Contact Buttons */
-body.golily #toolbar-contact-buttons {
+body.golily #toolbar-contact-buttons,
+body.dbawindows #toolbar-contact-buttons {
   padding: 14px 10px 10px 10px !important;
   text-align: center;
   background-color: rgba(0,0,0,0.01) !important;
   border-bottom: 1px solid rgba(0,0,0,0.1);
 }
-body.golily #contact-buttons {
+body.golily #contact-buttons,
+body.dbawindows #contact-buttons {
   padding: 12px 10px 10px 10px !important;
   text-align: center;
   background-color: rgba(0,0,0,0.01) !important;
